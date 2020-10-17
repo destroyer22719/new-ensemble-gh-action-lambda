@@ -3,7 +3,6 @@ config();
 
 if (!process.env.NODE_ENV) process.env.NODE_ENV = 'development';
 
-
 import * as Koa from 'koa';
 import {DB} from './utils/db';
 import * as cors from '@koa/cors';
