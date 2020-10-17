@@ -1,0 +1,9 @@
+export {default as auth} from './modules/auth/auth.router';
+export {default as questions} from './modules/questions/questions.router';
+export {default as categories} from './modules/categories/categories.router';
+export {default as articles} from './modules/articles/articles.router';
+export {default as schools} from './modules/schools/schools.router';
+export {default as codes} from './modules/codes/codes.router';
+export {default as tests} from './modules/tests/tests.router';
+export {default as users} from './modules/users/users.router';
+export {default as ping} from './utils/ping';

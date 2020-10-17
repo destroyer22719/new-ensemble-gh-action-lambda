@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "time": 120,
+  "categorySets": {
+    "set1": [
+      ["a57253c5-ab15-462e-9e01-ffa174870809", 100]
+    ],
+    "set2": [
+      ["7771dd27-2305-4a26-91f1-7baacb9a8eaa", 100]
+    ]
+  },
+  "sections": [
+    {
+      "name": "Grammar",
+      "minQuestionCount": 20,
+      "questions": [
+        {
+          "type": "medium",
+          "count": 2,
+          "categorySet": "set1"
+        },
+        {
+          "type": "single",
+          "count": 1,
+          "categorySet": "set2"
+        }
+      ]
+    },
+    {
+      "name": "Reading",
+      "minQuestionCount": 20,
+      "questions": [
+        {
+          "type": "single",
+          "count": 1,
+          "categorySet": "set2"
+        }
+      ]
+    }
+  ]
+}
