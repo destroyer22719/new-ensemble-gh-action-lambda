@@ -14,7 +14,8 @@ jobs:
       - run: yarn install
       - run: yarn deploy:credentials --provider aws --key ${{secrets.AWS_ACCESS_KEY_ID}} --secret ${{secrets.AWS_SECRET_ACCESS_KEY}}
       - run: |
-          echo "DB_URL=${{secrets.DB_URL}}" >> $GITHUB_ENV
-          echo "JWT_SECRET=${{secrets.JWT_SECRET}}" >> $GITHUB_ENV
+          touch .env
+          echo "DB_URL=${{secrets.DB_URL}}" >> .env
+          echo "JWT_SECRET=${{secrets.JWT_SECRET}}" >> .env
       - run: yarn build
       - run: yarn deploy --stage prod
