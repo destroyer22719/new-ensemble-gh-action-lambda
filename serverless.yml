@@ -1,4 +1,4 @@
-service: test-serverless-ensemble-lambda
+service: serverless-ensemble-lambda
 
 frameworkVersion: '2'
 
